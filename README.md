@@ -24,7 +24,7 @@ Nro | Nombre | Legajo | Mail
 
 ## Pacman
 
-El objetivo de este ejercicio es implementar parcialmente el modelo del juego [Pacman][2] aplicando la técnica ATDD e integrando los cambios de manera frecuente e iterativa. Para eso implementar un CI (preferentemente [Travis][1]).
+El objetivo de este ejercicio es implementar parcialmente el modelo del juego [Pacman][2] siguiendo los criterios listados en la sección Objetivos.
 
 ### Pruebas de aceptación
 
@@ -38,5 +38,3 @@ El objetivo de este ejercicio es implementar parcialmente el modelo del juego [P
 
 [1]: https://travis-ci.org/
 [2]: https://en.wikipedia.org/wiki/Pac-Man
-[3]: ./pruebas_de_aceptacion
-[4]: ./pacman
