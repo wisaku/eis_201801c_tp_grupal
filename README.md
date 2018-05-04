@@ -6,7 +6,7 @@ Ejercitar la escritura de código en ambientes colaborativos utilizando una meto
 1. Implementar ATDD como técnica de diseño.  
 2. Implementar FeatureBranch + Forking como flujo de trabajo, creando para esto un repositorio público con cualquier servicio de versionado de fuentes (Bitbucket, GitHub, etc.)
 3. Cada cambio necesita ser integrado con la mayor frecuencia posiblie, utilizando para la verificación de este un servicio de CI (Continous Integration).
-4. Generar el modelo tal que cumpla con las [Pruebas de Aceptación][3] para el problema listado en la próxima sección ([Pacman][4]).
+4. Generar el modelo tal que cumpla con las _Pruebas de Aceptación_ para el problema listado en la próxima sección (_Pacman_).
 5. Completar tados de los integrantes del grupo utilizando este archivo (```README.md```)
 
 ### Integrantes
