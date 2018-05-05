@@ -21,9 +21,8 @@ Nro | Nombre                    | Legajo | Mail
 2   | Rigazio Damian            | 28621  | sirdemian@gmail.com
 3   | Paula Schab               | 28688  | schabpaula@gmail.com
 4   | Pablo Nicolas Sabaliauskas| 28662  | sabaliauskaspablo@gmail.com
+5   | Maricruz Gil              | 27206  | gil.maricruz@gmail.com
 
-
-    
 ### Entrega
 
 16 / 05 / 2018
