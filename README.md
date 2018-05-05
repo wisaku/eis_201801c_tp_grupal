@@ -14,12 +14,15 @@ Ejercitar la escritura de código en ambientes colaborativos utilizando una meto
 
 ### Integrantes
 
+
 Nro | Nombre | Legajo | Mail
 ----|--------|--------|------
-1   |        |        |
-2   |        |        |
+1   | Emanuel Salgado | 16659  | salgadoema@gmail.com
+2   | Rigazio Damian  | 28621  | sirdemian@gmail.com
 3   |        |        |
 4   |Pablo Nicolas Sabaliauskas|28662|sabaliauskaspablo@gmail.com
+
+
     
 ### Entrega
 
