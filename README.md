@@ -15,7 +15,7 @@ Nro |      Nombre     | Legajo |     Mail
 ----|-----------------|--------|---------------------
 1   | Emanuel Salgado | 16659  | salgadoema@gmail.com
 2   | Rigazio Damian  | 28621  | sirdemian@gmail.com
-3   |                 |        |
+3   | Maricruz Gil    | 27206  | gil.maricruz@gmail.com
 4   |                 |        |
     
 ### Entrega
