@@ -1,4 +1,7 @@
 ## Objetivos del TP grupal
+
+[![Build Status](https://travis-ci.org/sirDemian/eis_201801c_tp_grupal.svg?branch=master)](https://travis-ci.org/sirDemian/eis_201801c_tp_grupal)
+
 Ejercitar la escritura de código en ambientes colaborativos utilizando una metodología de diseño guiada por pruebas ejecutanto un flujo de trabajo que facilite la integración frecuente de código.
 
 ### Lo que se espera
@@ -16,7 +19,7 @@ Nro | Nombre | Legajo | Mail
 1   |        |        |
 2   |        |        |
 3   |        |        |
-4   |        |        |
+4   |Pablo Nicolas Sabaliauskas|28662|sabaliauskaspablo@gmail.com
     
 ### Entrega
 
