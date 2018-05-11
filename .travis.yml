@@ -1,1 +1,13 @@
 language: java
+
+
+notifications:
+  email:
+    recipients:
+      - sirdemian@gmail.com
+      - sabaliauskaspablo@gmail.com
+      - salgadoema@gmail.com
+      - schabpaula@gmail.com
+      - gil.maricruz@gmail.com
+    on_success: always # default: change
+    on_failure: always # default: always
