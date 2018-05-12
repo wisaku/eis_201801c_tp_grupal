@@ -1,15 +1,13 @@
 package gradle.cucumber;
 
+public class EstdoDebil implements EstadoFantasma {
 
-public class EstadoSinCuerpo implements EstadoFantasma {
-
-    @Override
     public Boolean esDebil() {
-        return false;
+        return true;
     }
 
     @Override
     public Boolean esSinCuerpo() {
-        return true;
+        return false;
     }
 }

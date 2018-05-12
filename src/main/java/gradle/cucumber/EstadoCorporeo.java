@@ -9,7 +9,7 @@ public class EstadoCorporeo implements EstadoFantasma {
     }
 
     @Override
-    public boolean esSinCuerpo() {
+    public Boolean esSinCuerpo() {
         return false;
     }
 }

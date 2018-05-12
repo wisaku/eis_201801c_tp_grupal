@@ -23,4 +23,8 @@ public class Fantasma {
     public EstadoFantasma getEstado() {
         return this.estado;
     }
+
+    public Boolean esDebil() {
+        return this.estado.esDebil();
+    }
 }
