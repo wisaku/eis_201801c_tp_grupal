@@ -13,19 +13,23 @@ public class pacmanChocaFantasmaYMuere {
     private Fantasma fantasma;
 
 
-    @Given("^un pacman y un fantasma")
+    @Given("un pacman y un fantasma")
     public void nuevoPacmanYFantasma(){
         this.pacman = new Pacman();
         this.fantasma = new Fantasma();
     }
 
-    //@When("^el ([(pacman|fantasma)^\"]*) choca con el ([(pacman|fantasma)^\"]*)$")
-    @When("^el pacman choca con el fantasma")
+    @When("un pacman choca con un fantasma")
     public void pacmanChocaFantasma(){
         this.pacman.choca(this.fantasma);
     }
 
-    @Then("^el pacman muere")
+    @When("un fantasma choca con un pacman")
+    public void fantasmaChocaPacman(){
+        this.fantasma.choca(this.pacman);
+    }
+
+    @Then("el pacman muere")
     public void pacmanMuere(){
         assertThat(this.pacman.estaVivo()).isEqualTo(false);
     }
