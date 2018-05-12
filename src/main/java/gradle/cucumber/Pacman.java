@@ -13,7 +13,10 @@ public class Pacman {
     }
 
     public void choca(Fantasma fantasma) {
-        this.estado = new EstadoMuerto();
+        if(fantasma.getEstado().esDebil())
+            fantasma.sinCuerpo();
+            else
+                this.estado = new EstadoMuerto();
     }
 
     public boolean estaVivo() {
