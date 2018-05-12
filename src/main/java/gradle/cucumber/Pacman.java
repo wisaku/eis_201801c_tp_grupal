@@ -19,7 +19,7 @@ public class Pacman {
                 this.estado = new EstadoMuerto();
     }
 
-    public boolean estaVivo() {
+    public Boolean estaVivo() {
         return this.estado.estaVivo();
     }
 

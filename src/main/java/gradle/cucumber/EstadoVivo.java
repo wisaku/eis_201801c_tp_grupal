@@ -3,14 +3,14 @@ package gradle.cucumber;
 
 public class EstadoVivo implements Estado {
 
-    private boolean estado;
+    private Boolean estado;
 
     public EstadoVivo(){
         this.estado= true;
     }
 
     @Override
-    public boolean estaVivo() {
+    public Boolean estaVivo() {
         return this.estado;
     }
 }

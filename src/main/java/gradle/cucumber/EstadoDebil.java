@@ -9,7 +9,7 @@ public class EstadoDebil implements EstadoFantasma{
     }
 
     @Override
-    public boolean esSinCuerpo() {
+    public Boolean esSinCuerpo() {
         return false;
     }
 }

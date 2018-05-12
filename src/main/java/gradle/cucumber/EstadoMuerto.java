@@ -2,14 +2,14 @@ package gradle.cucumber;
 
 public class EstadoMuerto implements Estado {
 
-    private boolean estado;
+    private Boolean estado;
 
     public EstadoMuerto(){
         this.estado=false;
     }
 
     @Override
-    public boolean estaVivo() {
+    public Boolean estaVivo() {
         return this.estado;
     }
 }

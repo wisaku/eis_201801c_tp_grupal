@@ -39,7 +39,8 @@ El objetivo de este ejercicio es implementar parcialmente el modelo del juego [P
 4. Pacman come un pellet y los fantasmas se debilitan.
 5. Pacman choca contra un fantasma debilitado y no muero. Adicionalmente la digestión es el fantasma sin cuerpo.
 6. Pacman choca contra un fantasma sin cuerpo y no muere.
-
+7. Pacman come una fruta especifica y vuela, pasa por arriba de los fantasmas y no muere. 
+   Dura una determinada cantidad de tiempo. 
 
 [1]: https://travis-ci.org/
 [2]: https://en.wikipedia.org/wiki/Pac-Man
