@@ -30,7 +30,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/eis_201801c_tp_grupal.iml" filepath="$PROJECT_DIR$/eis_201801c_tp_grupal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eis_201801c_tp_grupal.iml" filepath="$PROJECT_DIR$/eis_201801c_tp_grupal.iml" />
       <module fileurl="file://$PROJECT_DIR$/eis_201801c_tp_grupal_main.iml" filepath="$PROJECT_DIR$/eis_201801c_tp_grupal_main.iml" group="eis_201801c_tp_grupal" />
+      <module fileurl="file://$PROJECT_DIR$/eis_201801c_tp_grupal_main.iml" filepath="$PROJECT_DIR$/eis_201801c_tp_grupal_main.iml" group="eis_201801c_tp_grupal" />
+      <module fileurl="file://$PROJECT_DIR$/eis_201801c_tp_grupal_test.iml" filepath="$PROJECT_DIR$/eis_201801c_tp_grupal_test.iml" group="eis_201801c_tp_grupal" />
       <module fileurl="file://$PROJECT_DIR$/eis_201801c_tp_grupal_test.iml" filepath="$PROJECT_DIR$/eis_201801c_tp_grupal_test.iml" group="eis_201801c_tp_grupal" />
     </modules>
   </component>

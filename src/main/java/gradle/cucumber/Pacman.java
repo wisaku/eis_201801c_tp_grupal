@@ -27,6 +27,8 @@ public class Pacman {
         this.puntos = puntos + biscuit.puntos();
     }
 
+    public void comeFruta(Fruta fruta) {this.puntos = puntos + fruta.puntos();}
+
     public int puntos(){
         return this.puntos;
     }
