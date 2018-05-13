@@ -12,11 +12,20 @@ public class Pacman {
 
     }
 
-    public void choca(Fantasma fantasma) {
-        if(fantasma.getEstado().esDebil())
+    private void debilitarFantasmaOMatarPacman(Fantasma fantasma)
+    {
+        if(fantasma.getEstado().esDebil() )
             fantasma.sinCuerpo();
-            else
-                this.estado = new EstadoMuerto();
+        else
+            this.estado = new EstadoMuerto();
+    }
+
+    public void choca(Fantasma fantasma) {
+        if(fantasma.getEstado().esSinCuerpo())
+            this.estado= new EstadoVivo();
+        else
+            debilitarFantasmaOMatarPacman(fantasma);
+
     }
 
     public Boolean estaVivo() {
@@ -26,6 +35,8 @@ public class Pacman {
     public void come(Biscuit biscuit) {
         this.puntos = puntos + biscuit.puntos();
     }
+
+    public void comeFruta(Fruta fruta) {this.puntos = puntos + fruta.puntos();}
 
     public int puntos(){
         return this.puntos;
