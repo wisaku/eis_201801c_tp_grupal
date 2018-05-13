@@ -1,13 +1,12 @@
 package gradle.cucumber;
 
-public class Biscuit {
-    private int puntos;
+public class Biscuit extends Comida{
+
 
     public Biscuit(){
-        this.puntos = 20;
+
+        setPuntos(20);
+
     }
 
-    public int puntos(){
-        return this.puntos;
-    }
 }

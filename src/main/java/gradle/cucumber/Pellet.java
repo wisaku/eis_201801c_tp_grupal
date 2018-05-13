@@ -1,5 +1,5 @@
 package gradle.cucumber;
 
-public class Pellet {
+public class Pellet extends Comida{
 
 }

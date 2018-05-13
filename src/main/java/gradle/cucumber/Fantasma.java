@@ -8,6 +8,9 @@ public class Fantasma {
         this.estado = new EstadoCorporeo();
     }
 
+
+
+    //TODO FIXME esto hace que el pacman choque 2 veces con el fantasma.
     public void choca(Pacman pacman) {
         pacman.choca(this);
     }
@@ -22,6 +25,10 @@ public class Fantasma {
 
     public EstadoFantasma getEstado() {
         return this.estado;
+    }
+
+    public void setEstado(EstadoFantasma estado){
+        this.estado = estado;
     }
 
     public Boolean esDebil() {

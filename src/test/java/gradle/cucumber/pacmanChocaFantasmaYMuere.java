@@ -5,6 +5,8 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
+import java.time.Clock;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class pacmanChocaFantasmaYMuere {
@@ -31,7 +33,7 @@ public class pacmanChocaFantasmaYMuere {
 
     @Then("el pacman muere")
     public void pacmanMuere(){
-        assertThat(this.pacman.estaVivo()).isEqualTo(false);
+        assertThat(this.pacman.estaVivo());
     }
 
 }

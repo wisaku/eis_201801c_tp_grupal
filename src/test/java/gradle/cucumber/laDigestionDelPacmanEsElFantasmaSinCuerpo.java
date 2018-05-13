@@ -26,6 +26,9 @@ public class laDigestionDelPacmanEsElFantasmaSinCuerpo {
 
     @Then("la digestion es el fantasma sin cuerpo")
     public void fantasmaSinCuerpo(){
+
+        
+
         assertThat(this.fantasma.getEstado().esDebil()).isEqualTo(false);
         assertThat(this.fantasma.getEstado().esSinCuerpo()).isEqualTo(true);
     }

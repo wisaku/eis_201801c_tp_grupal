@@ -20,13 +20,12 @@ public class pacmanComeFrutaYSeVuelveMasGordo {
 
     @When("^el pacman come una fruta")
     public void pacmanComeFruta(){
-        this.pacman.comeFruta(fruta);
-
+        this.pacman.come(fruta);
     }
 
     @Then("^pacman se vuelve gordo")
     public void pacmanEngordaPorFruta(){
-        assertThat(this.pacman.puntos()).isEqualTo(30);
+        assertThat(this.pacman.getPuntos()).isEqualTo(30);
 
 
     }

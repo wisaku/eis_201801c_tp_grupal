@@ -12,4 +12,9 @@ public class EstadoMuerto implements Estado {
     public Boolean estaVivo() {
         return this.estado;
     }
+
+    @Override
+    public boolean estaVolando() {
+        return false;
+    }
 }

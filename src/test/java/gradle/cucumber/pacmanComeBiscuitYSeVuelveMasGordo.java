@@ -25,7 +25,7 @@ public class pacmanComeBiscuitYSeVuelveMasGordo {
 
     @Then("^pacman engorda")
     public void pacmanEngorda(){
-        assertThat(this.pacman.puntos()).isEqualTo(20);
+        assertThat(this.pacman.getPuntos()).isEqualTo(20);
 
 
     }

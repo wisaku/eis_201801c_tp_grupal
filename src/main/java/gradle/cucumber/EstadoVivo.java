@@ -13,4 +13,9 @@ public class EstadoVivo implements Estado {
     public Boolean estaVivo() {
         return this.estado;
     }
+
+    @Override
+    public boolean estaVolando() {
+        return false;
+    }
 }

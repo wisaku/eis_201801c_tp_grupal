@@ -6,11 +6,12 @@ public class Pacman {
     private Estado estado;
     private int puntos;
 
-    public Pacman(){
+    public Pacman() {
         this.estado = new EstadoVivo();
         this.puntos = 0;
 
     }
+
 
     private void debilitarFantasmaOMatarPacman(Fantasma fantasma)
     {
@@ -20,25 +21,43 @@ public class Pacman {
             this.estado = new EstadoMuerto();
     }
 
+
     public void choca(Fantasma fantasma) {
-        if(fantasma.getEstado().esSinCuerpo())
-            this.estado= new EstadoVivo();
-        else
-            debilitarFantasmaOMatarPacman(fantasma);
+        //OBTENGO EL NUEVO ESTADO QUE DEBERIA TENER
 
+
+        if (!fantasma.getEstado().esSinCuerpo() && !this.getEstado().estaVolando()) {
+            if (fantasma.getEstado().esDebil())
+                fantasma.sinCuerpo();
+            else
+                this.estado = new EstadoMuerto();
+        }
     }
-
     public Boolean estaVivo() {
         return this.estado.estaVivo();
     }
 
-    public void come(Biscuit biscuit) {
-        this.puntos = puntos + biscuit.puntos();
+    public void come(Comida comida) {
+        this.setPuntos(getPuntos() + comida.getPuntos());
+        comida.cambiarEstadoPorPropiedadesNutricionales(this);
     }
 
-    public void comeFruta(Fruta fruta) {this.puntos = puntos + fruta.puntos();}
 
-    public int puntos(){
-        return this.puntos;
+
+    public Estado getEstado() {
+        return estado;
     }
-}
+
+    public void setEstado(Estado estado) {
+        this.estado = estado;
+    }
+
+    public int getPuntos() {
+        return puntos;
+    }
+
+    public void setPuntos(int puntos) {
+        this.puntos = puntos;
+    }
+
+    }

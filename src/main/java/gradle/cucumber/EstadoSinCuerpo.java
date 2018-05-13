@@ -12,4 +12,5 @@ public class EstadoSinCuerpo implements EstadoFantasma {
     public Boolean esSinCuerpo() {
         return true;
     }
+
 }
