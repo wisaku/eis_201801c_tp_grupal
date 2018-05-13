@@ -12,11 +12,20 @@ public class Pacman {
 
     }
 
-    public void choca(Fantasma fantasma) {
-        if(fantasma.getEstado().esDebil())
+    private void debilitarFantasmaOMatarPacman(Fantasma fantasma)
+    {
+        if(fantasma.getEstado().esDebil() )
             fantasma.sinCuerpo();
-            else
-                this.estado = new EstadoMuerto();
+        else
+            this.estado = new EstadoMuerto();
+    }
+
+    public void choca(Fantasma fantasma) {
+        if(fantasma.getEstado().esSinCuerpo())
+            this.estado= new EstadoVivo();
+        else
+            debilitarFantasmaOMatarPacman(fantasma);
+
     }
 
     public Boolean estaVivo() {

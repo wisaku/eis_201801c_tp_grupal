@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4c9661c-1a7a-4bc2-b4a5-21a6a83b38c4" name="Default" comment="" />
+    <list default="true" id="b4c9661c-1a7a-4bc2-b4a5-21a6a83b38c4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/gradle/cucumber/pacmanChocaFantasmaSinCuerpoYNoMuere.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eis_201801c_tp_grupal.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/eis_201801c_tp_grupal.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eis_201801c_tp_grupal.iws" beforeDir="false" afterPath="$PROJECT_DIR$/eis_201801c_tp_grupal.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gradle/cucumber/Pacman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gradle/cucumber/Pacman.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,41 +24,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pacmanComeFrutaYSeVuelveMasGordo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/gradle/cucumber/pacmanComeFrutaYSeVuelveMasGordo.java">
+      <file leaf-file-name="pacmanChocaFantasmaYMuere.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/gradle/cucumber/pacmanChocaFantasmaYMuere.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pacmanChocaFantasmaSinCuerpoNoMuere.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/gradle/cucumber/pacmanChocaFantasmaSinCuerpoNoMuere.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pacmanChocaFantasmaSinCuerpoYNoMuere.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/gradle/cucumber/pacmanChocaFantasmaSinCuerpoYNoMuere.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <file leaf-file-name="Pacman.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gradle/cucumber/Pacman.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            <state relative-caret-position="260">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fruta.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gradle/cucumber/Fruta.java">
+      <file leaf-file-name="Fantasma.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gradle/cucumber/Fantasma.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pacmanComeUnaFrutaYSeVuelveMasGordo.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/gradle/cucumber/pacmanComeUnaFrutaYSeVuelveMasGordo.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -252,7 +267,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6104846054586" />
+        <entry key="$PROJECT_DIR$" value="6104852000636" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="2314081008" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="1124708390" />
@@ -363,9 +378,9 @@
     </option>
     <option name="projectSyncType">
       <map>
-        <entry key="$USER_HOME$/Desktop/ejercicio_tdd-master/ejercicio_tdd-master/java" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/.." value="PREVIEW" />
         <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+        <entry key="$PROJECT_DIR$/../../ejercicio_tdd-master/ejercicio_tdd-master/java" value="PREVIEW" />
         <entry key="$USER_HOME$/Downloads/ejercicio_tdd-master/ejercicio_tdd-master/java" value="PREVIEW" />
         <entry key="$USER_HOME$/git/ejercicio_tdd_ci" value="PREVIEW" />
       </map>
@@ -376,14 +391,17 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/gradle/cucumber/Pacman.java" />
         <option value="$PROJECT_DIR$/src/test/resources/gradle/cucumber/pacmanComeUnaFrutaYSeVuelveMasGordo.feature" />
         <option value="$PROJECT_DIR$/src/main/java/gradle/cucumber/Fruta.java" />
         <option value="$PROJECT_DIR$/src/test/java/gradle/cucumber/pacmanComeFrutaYSeVuelveMasGordo.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/gradle/cucumber/pacmanChocaFantasmaSinCuerpoYNoMuere.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/gradle/cucumber/pacmanChocaFantasmaSinCuerpoNoMuere.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/gradle/cucumber/Pacman.java" />
+        <option value="$PROJECT_DIR$/src/test/java/gradle/cucumber/pacmanChocaFantasmaSinCuerpoYNoMuere.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="372" />
     <option name="y" value="41" />
     <option name="width" value="683" />
@@ -395,36 +413,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="eis_201801c_tp_grupal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eis_201801c_tp_grupal-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="eis_201801c_tp_grupal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="eis_201801c_tp_grupal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eis_201801c_tp_grupal-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="eis_201801c_tp_grupal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eis_201801c_tp_grupal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eis_201801c_tp_grupal-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="eis_201801c_tp_grupal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="eis_201801c_tp_grupal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eis_201801c_tp_grupal-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="eis_201801c_tp_grupal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eis_201801c_tp_grupal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eis_201801c_tp_grupal-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="eis_201801c_tp_grupal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -432,20 +448,20 @@
             </path>
             <path>
               <item name="eis_201801c_tp_grupal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eis_201801c_tp_grupal-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="eis_201801c_tp_grupal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="eis_201801c_tp_grupal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eis_201801c_tp_grupal-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="eis_201801c_tp_grupal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eis_201801c_tp_grupal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eis_201801c_tp_grupal-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="eis_201801c_tp_grupal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -453,14 +469,14 @@
             </path>
             <path>
               <item name="eis_201801c_tp_grupal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eis_201801c_tp_grupal-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="eis_201801c_tp_grupal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eis_201801c_tp_grupal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eis_201801c_tp_grupal-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="eis_201801c_tp_grupal" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -474,12 +490,19 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gradle.cucumber" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -493,11 +516,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: pacmanComeUnaFrutaYSeVuelveMasGordo">
+  <component name="RunManager" selected="Cucumber java.Feature: pacmanChocaFantasmaSinCuerpoNoMuere">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Feature: debilitarFantasmasCuandoacmanComePellets" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: laDigestionDelPacmanEsElFantasmaSinCuerpo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="eis_201801c_tp_grupal_test" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
@@ -508,7 +531,7 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Feature: gradle" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: pacmanChocaFantasmaSinCuerpoNoMuere" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="eis_201801c_tp_grupal_test" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
@@ -520,6 +543,17 @@
       </extension>
     </configuration>
     <configuration name="Feature: pacmanChocaFantasmaYMuere" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="eis_201801c_tp_grupal_test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Feature: pacmanComeBiscuitYSeVuelveMasGordo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="eis_201801c_tp_grupal_test" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
@@ -580,17 +614,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Feature: gradle" />
-      <item itemvalue="Cucumber java.Feature: debilitarFantasmasCuandoacmanComePellets" />
+      <item itemvalue="Cucumber java.Feature: laDigestionDelPacmanEsElFantasmaSinCuerpo" />
       <item itemvalue="Cucumber java.Feature: pacmanChocaFantasmaYMuere" />
+      <item itemvalue="Cucumber java.Feature: pacmanComeBiscuitYSeVuelveMasGordo" />
       <item itemvalue="Cucumber java.Feature: pacmanComeUnaFrutaYSeVuelveMasGordo" />
+      <item itemvalue="Cucumber java.Feature: pacmanChocaFantasmaSinCuerpoNoMuere" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Feature: pacmanComeUnaFrutaYSeVuelveMasGordo" />
+        <item itemvalue="Cucumber java.Feature: pacmanChocaFantasmaSinCuerpoNoMuere" />
         <item itemvalue="Cucumber java.Feature: pacmanChocaFantasmaYMuere" />
-        <item itemvalue="Cucumber java.Feature: debilitarFantasmasCuandoacmanComePellets" />
-        <item itemvalue="Cucumber java.Feature: gradle" />
+        <item itemvalue="Cucumber java.Feature: pacmanComeUnaFrutaYSeVuelveMasGordo" />
+        <item itemvalue="Cucumber java.Feature: pacmanComeBiscuitYSeVuelveMasGordo" />
+        <item itemvalue="Cucumber java.Feature: laDigestionDelPacmanEsElFantasmaSinCuerpo" />
       </list>
     </recent_temporary>
   </component>
@@ -608,41 +644,44 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__debilitarFantasmasCuandoacmanComePellets - 2018.05.13 at 08h 46m 49s.xml">
-      <configuration name="Feature: debilitarFantasmasCuandoacmanComePellets" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__pacmanChocaFantasmaSinCuerpoNoMuere - 2018.05.13 at 10h 57m 28s.xml">
+      <configuration name="Feature: pacmanChocaFantasmaSinCuerpoNoMuere" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__pacmanChocaFantasmaYMuere - 2018.05.13 at 08h 48m 50s.xml">
+    <history-entry file="Feature__pacmanChocaFantasmaSinCuerpoNoMuere - 2018.05.13 at 11h 01m 52s.xml">
+      <configuration name="Feature: pacmanChocaFantasmaSinCuerpoNoMuere" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__pacmanChocaFantasmaSinCuerpoNoMuere - 2018.05.13 at 11h 03m 19s.xml">
+      <configuration name="Feature: pacmanChocaFantasmaSinCuerpoNoMuere" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__pacmanChocaFantasmaSinCuerpoNoMuere - 2018.05.13 at 11h 04m 45s.xml">
+      <configuration name="Feature: pacmanChocaFantasmaSinCuerpoNoMuere" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__debilitarFantasmasCuandoacmanComePellets_(1) - 2018.05.13 at 11h 05m 46s.xml">
+      <configuration name="Feature: debilitarFantasmasCuandoacmanComePellets (1)" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__laDigestionDelPacmanEsElFantasmaSinCuerpo - 2018.05.13 at 11h 05m 56s.xml">
+      <configuration name="Feature: laDigestionDelPacmanEsElFantasmaSinCuerpo" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__pacmanChocaFantasmaYMuere - 2018.05.13 at 11h 06m 03s.xml">
       <configuration name="Feature: pacmanChocaFantasmaYMuere" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__pacmanComeUnaFrutaYSeVuelveMasGordo - 2018.05.13 at 09h 05m 18s.xml">
+    <history-entry file="Feature__pacmanComeBiscuitYSeVuelveMasGordo - 2018.05.13 at 11h 06m 13s.xml">
+      <configuration name="Feature: pacmanComeBiscuitYSeVuelveMasGordo" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__pacmanComeUnaFrutaYSeVuelveMasGordo - 2018.05.13 at 11h 06m 19s.xml">
       <configuration name="Feature: pacmanComeUnaFrutaYSeVuelveMasGordo" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__pacmanComeUnaFrutaYSeVuelveMasGordo - 2018.05.13 at 09h 08m 35s.xml">
-      <configuration name="Feature: pacmanComeUnaFrutaYSeVuelveMasGordo" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__pacmanComeUnaFrutaYSeVuelveMasGordo - 2018.05.13 at 09h 09m 13s.xml">
-      <configuration name="Feature: pacmanComeUnaFrutaYSeVuelveMasGordo" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__pacmanComeUnaFrutaYSeVuelveMasGordo - 2018.05.13 at 09h 10m 03s.xml">
-      <configuration name="Feature: pacmanComeUnaFrutaYSeVuelveMasGordo" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__pacmanComeUnaFrutaYSeVuelveMasGordo - 2018.05.13 at 09h 11m 39s.xml">
-      <configuration name="Feature: pacmanComeUnaFrutaYSeVuelveMasGordo" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__pacmanComeUnaFrutaYSeVuelveMasGordo - 2018.05.13 at 09h 13m 03s.xml">
-      <configuration name="Feature: pacmanComeUnaFrutaYSeVuelveMasGordo" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__pacmanComeUnaFrutaYSeVuelveMasGordo - 2018.05.13 at 09h 14m 24s.xml">
-      <configuration name="Feature: pacmanComeUnaFrutaYSeVuelveMasGordo" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__pacmanChocaFantasmaYMuere - 2018.05.13 at 11h 09m 18s.xml">
+      <configuration name="Feature: pacmanChocaFantasmaYMuere" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32857144" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32857144" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -654,7 +693,6 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27891654" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49926794" weight="0.31904763" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -667,6 +705,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49926794" visible="true" weight="0.31904763" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -674,6 +713,44 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/gradle/cucumber/pacmanChocaFantasmaYMuere.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gradle/cucumber/pacmanComeFrutaYSeVuelveMasGordo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gradle/cucumber/Fruta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/gradle/cucumber/pacmanComeUnaFrutaYSeVuelveMasGordo.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -706,23 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/gradle/cucumber/debilitarFantasmasCuandoacmanComePellets.feature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/gradle/cucumber/pacmanChocaFantasmaYMuere.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gradle/cucumber/pacmanChocaFantasmaYMuere.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -764,14 +824,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/gradle/cucumber/pacmanComeUnaFrutaYSeVuelveMasGordo.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gradle/cucumber/Pacman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -785,13 +838,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/gradle/cucumber/Fruta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/gradle/cucumber/pacmanComeFrutaYSeVuelveMasGordo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
+        <state relative-caret-position="425">
           <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -802,7 +855,60 @@
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gradle/cucumber/EstadoFantasma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gradle/cucumber/pacmanChocaFantasmaYMuere.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/gradle/cucumber/pacmanChocaFantasmaYMuere.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gradle/cucumber/Fantasma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gradle/cucumber/Pacman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/gradle/cucumber/pacmanChocaFantasmaSinCuerpoNoMuere.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gradle/cucumber/pacmanChocaFantasmaSinCuerpoYNoMuere.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+          <folding>
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
